@@ -1,0 +1,53 @@
+.bg-image1{
+background-image: url(../../../../public/Screenshoot/A3.png);
+background-size: cover;
+height: 200px;
+width: 400px;
+}
+
+.bg-image1:hover{
+    background-position:bottom;
+    animation-duration: 500ms;
+    transition: ease-in-out 2200ms;
+}
+
+
+.bg-image2{
+background-image: url(../../../../public/Screenshoot/A2.png);
+background-size: cover;
+height: 200px;
+width: 400px;
+}
+
+.bg-image2:hover{
+    background-position:bottom;
+    animation-duration: 500ms;
+    transition: ease-in-out 2200ms;
+}
+
+.bg-image3{
+background-image: url(../../../../public/Screenshoot/A1/A1.png);
+background-size: cover;
+height: 200px;
+width: 400px;
+}
+
+.bg-image3:hover{
+    background-position:bottom;
+    animation-duration: 500ms;
+    transition: ease-in-out 2200ms;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .bg-image1{
+        width: 320px;
+    }
+    .bg-image2{
+        width: 320px;
+    }
+    .bg-image3{
+        width: 320px;
+    }
+  }
